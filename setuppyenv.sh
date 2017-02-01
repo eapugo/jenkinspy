@@ -11,5 +11,7 @@ fi
 # Create virtualenv and install necessary packages
 virtualenv --no-site-packages $PYENV_HOME
 . $PYENV_HOME/bin/activate
+pip install --upgrade pip
 pip install salt-pepper
 pip install request
+./buildstat_webhook.py

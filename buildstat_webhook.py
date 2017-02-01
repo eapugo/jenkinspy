@@ -16,6 +16,6 @@ headers = {
     'cache-control': "no-cache",
     }
 
-response = requests.request("POST", url, data=payload, headers=headers)
+response = requests.post(url, data=payload, headers=headers)
 
 print(response.text)

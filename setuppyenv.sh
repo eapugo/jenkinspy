@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #install python venv on jenkins slave
 
 PYENV_HOME=$WORKSPACE/.saltpyenv/

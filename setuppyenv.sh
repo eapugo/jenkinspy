@@ -14,4 +14,4 @@ virtualenv --no-site-packages $PYENV_HOME
 pip install --upgrade pip
 pip install salt-pepper
 pip install request
-./buildstat_webhook.py
+#./buildstat_webhook.py
